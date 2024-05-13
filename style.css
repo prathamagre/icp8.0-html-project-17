@@ -1,0 +1,75 @@
+        .box-container1 {
+            display: flex;
+            flex-direction: row;
+        }
+        .box-container2{
+            display: flex;
+            flex-direction: row-reverse;
+        }
+        .box-container3{
+            display: flex;
+            flex-direction: column;
+            align-items: start;
+        }
+        .box-container4{
+            display: flex;
+            flex-direction: column-reverse;
+            align-items: end;
+        }
+        .box-container5{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+        }
+        .box-container6{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .box-container7{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            align-items: start;
+        }
+        .box-container8{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .box-container9{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            align-items: end;
+        }
+
+        .box {
+            height: 250px;
+            width: 150px;
+            background-color: #d7cdcd;
+            border: solid #D37676;
+            border-radius: 10px;
+            padding: ;
+            margin-bottom: 30px;
+            box-shadow: 0 0 20px 5px #808080;
+        }
+
+        @font-face {
+            font-family: woody;
+            src: url(./BrownieStencil-8O8MJ.ttf);
+        }
+
+        .text {
+            text-align: center;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+
+        img {
+            height: 50%;
+            width: 100%;
+            border-bottom: solid #D37676;
+            border-radius: 9.5px 9.5px 0 0;
+        }
